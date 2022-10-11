@@ -1,3 +1,6 @@
+# The generated site
+site/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
