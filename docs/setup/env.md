@@ -3,13 +3,13 @@ hide:
   - footer
 ---
 
-# Prerequisites
+# Set up the env
+
+## Prerequisites
 
 This guide assumes a minimal level of confidence while using the command line.
 If you never did that, read
 [this guide](../../general/unix).
-
-# Set up the env
 
 ## Windows Subsystem for Linux
 
