@@ -41,8 +41,8 @@ venv?
 ## DBeaver
 
 SQL people suggest using this.
-It's useful to have auto complete of the column names,
-and adds a bunch of useful tools.
+It's useful as it has auto completion of the column names,
+and it adds a bunch of useful tools.
 
 Install the
 [community edition](https://dbeaver.io/download/)

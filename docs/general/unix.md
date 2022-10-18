@@ -15,7 +15,7 @@ Skip to the
 [summary](https://tutorial.djangogirls.org/en/intro_to_command_line/#summary)
 for a quick refresher.
 
-The Windows tab refer to PowerShell.
+The Windows tabs refer to PowerShell.
 
 !!! tip
 
@@ -50,7 +50,7 @@ open the manual page for a `command`:
     man [command]
     ```
 
-    Exit the documentation with ++q++.
+    Exit the documentation by typing ++q++.
 
 === "Windows (PS)"
 
@@ -111,13 +111,16 @@ In any directory:
     The path is relative to the current directory.
 
     An absolute path is relative to the root of the file system
-    (`/` for Linux, `C:` for Windows)
+    (`/` for Linux, `C:` for Windows),
     for example:
     `/home/pmn/repos/dsdocs`.
     So if the current directory is
     `/home/pmn`,
     to list all the files in `dsdocs` run
-    `ls repos/dsdocs`.
+
+    ``` bash
+    ls repos/dsdocs
+    ```
 
 ### Change current directory
 
@@ -137,7 +140,7 @@ To change the current directory:
 
 ### Create a directory
 
-To create a directory,
+To create a directory
 in the current directory:
 
 === "Linux"
