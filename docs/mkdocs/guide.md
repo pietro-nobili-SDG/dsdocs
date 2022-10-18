@@ -1,15 +1,32 @@
 # MkDocs
 
 Basic 
-[mkdocs.org](https://www.mkdocs.org)
-guide.
+[MkDocs](https://www.mkdocs.org)
+and
+[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+guides.
+
+## Tips
+
+!!! note
+
+    Use a single `# Header` per page, or the Table of Content will disappear.
 
 ## Reference
 
 Material for MkDocs has a lot of
 [interesting features](https://squidfunk.github.io/mkdocs-material/reference/).
+In this page there are a few example of the most useful ones.
 
-### Admonitions
+The source code to generate this examples is not rendered,
+either
+[check](https://raw.githubusercontent.com/pietro-nobili-SDG/dsdocs/main/docs/mkdocs/guide.md)
+the source code
+or better, follow the links in the headers to check the official documentation.
+
+### [Admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
+
+Useful to include side content without significantly interrupting the document flow:
 
 !!! note
 
@@ -17,7 +34,7 @@ Material for MkDocs has a lot of
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-### Code blocks
+### [Code blocks](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/)
 
 With title, line numbers and highlighted lines.
 
@@ -29,7 +46,7 @@ def bubble_sort(items):
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
 
-With code annotations:
+With code annotations (click the fancy `+` sign):
 
 ``` yaml
 theme:
@@ -54,21 +71,10 @@ The homomorphism $f$ is injective if and only if its kernel is only the
 singleton set $e_G$, because otherwise $\exists a,b\in G$ with $a\neq b$ such 
 that $f(a)=f(b)$.
 
-### Content tabs
+### [Content tabs](https://squidfunk.github.io/mkdocs-material/reference/content-tabs/)
 
-=== "Unordered list"
-
-    * Sed sagittis eleifend rutrum
-    * Donec vitae suscipit est
-    * Nulla tempor lobortis orci
-
-=== "Ordered list"
-
-    1. Sed sagittis eleifend rutrum
-    2. Donec vitae suscipit est
-    3. Nulla tempor lobortis orci
-
-<!-- no idea how to split them properly but this works -->
+Group alternative content under different tabs.
+Content tabs can be linked so that when clicking on a label all the tabs will switch:
 
 === "C"
 
@@ -91,3 +97,57 @@ that $f(a)=f(b)$.
       return 0;
     }
     ```
+
+<!-- no idea how to split them properly but this works -->
+
+=== "C"
+
+    ``` c
+    // more C code
+    ```
+
+=== "C++"
+
+    ``` c++
+    // more C++ code
+    ```
+
+### [Lists](https://squidfunk.github.io/mkdocs-material/reference/lists/)
+
+On top of the standard ordered and unordered lists,
+material offers:
+
+#### [Definition](https://squidfunk.github.io/mkdocs-material/reference/lists/#using-definition-lists) lists:
+
+`key`
+
+: value
+
+`other key`
+
+: other value
+
+#### [Task](https://squidfunk.github.io/mkdocs-material/reference/lists/#using-task-lists) lists:
+
+- [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
+- [ ] Vestibulum convallis sit amet nisi a tincidunt
+    * [x] In hac habitasse platea dictumst
+    * [x] In scelerisque nibh non dolor mollis congue sed et metus
+    * [ ] Praesent sed risus massa
+- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
+
+### [Abbreviations](https://squidfunk.github.io/mkdocs-material/reference/tooltips/#adding-abbreviations)
+
+Define a glossary (in a single file `includes/abbreviations.md`),
+and use it everywhere:
+QUTSUC.
+
+### [Keyboard keys](https://squidfunk.github.io/mkdocs-material/reference/formatting/?h=ctrl#adding-keyboard-keys)
+
+Render neatly key combos like
+++ctrl+alt+del++
+or
+++ctrl+shift+t++.
+Check out the
+[full list](https://facelessuser.github.io/pymdown-extensions/extensions/keys/#extendingmodifying-key-map-index)
+of keys available.
