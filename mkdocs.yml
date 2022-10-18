@@ -5,6 +5,7 @@ site_description: >-
 
 repo_name: DSdocs
 repo_url: https://github.com/pietro-nobili-SDG/dsdocs
+edit_uri: blob/main/docs
 
 theme:
   name: material
