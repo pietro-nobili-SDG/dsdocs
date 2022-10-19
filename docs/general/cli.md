@@ -1,6 +1,4 @@
-# Unix
-
-## Command-Line Interface
+# Command-Line Interface
 
 A command-line interface (CLI) is a text-based user interface (UI)
 used to run programs, manage computer files and interact with the computer[^1].
@@ -28,7 +26,7 @@ The Windows tabs refer to PowerShell.
     if there is more than one hit ++tab++ again
     to show a list of all the possible options.
 
-<!-- ### Open the terminal
+<!-- ## Open the terminal
 
 === "Linux"
 
@@ -43,7 +41,7 @@ The Windows tabs refer to PowerShell.
     type `powershell`
     and open it. -->
 
-### Learn more about a command
+## Learn more about a command
 
 If for some reason Google does not work,
 open the local manual page for a `command`:
@@ -67,7 +65,7 @@ open the local manual page for a `command`:
     Get-Help [command]
     ```
 
-### Current directory
+## Current directory
 
 Print the path to the current directory
 
@@ -83,11 +81,11 @@ Print the path to the current directory
     pwd
     ```
 
-### List all the files
+## List all the files
 
 List all the files and directories.
 
-#### In the current directory:
+### In the current directory:
 
 === "Linux"
 
@@ -105,7 +103,7 @@ List all the files and directories.
 
     Remember, `ls` like list.
 
-#### In any directory:
+### In any directory:
 
 === "Linux"
 
@@ -138,7 +136,7 @@ List all the files and directories.
     ls repos/dsdocs
     ```
 
-### Change current directory
+## Change current directory
 
 To change the current directory:
 
@@ -158,7 +156,7 @@ To change the current directory:
 
     Remember, `cd` like change directory.
 
-### Create a directory
+## Create a directory
 
 To create a directory
 in the current directory:
@@ -179,7 +177,7 @@ in the current directory:
 
     Remember, `mkdir` like make directory.
 
-### Move a file
+## Move a file
 
 Rename or move a file
 

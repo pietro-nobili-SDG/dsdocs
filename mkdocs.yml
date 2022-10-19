@@ -89,7 +89,7 @@ nav:
     - MLFlow: tools/MLFlow/jobs.md
     - LogicApp: tools/logicapp/scheduling.md
   - General:
-    - Unix: general/unix.md
+    - Command-line interface: general/cli.md
     - Git: general/git.md
     - Mk Docs: mkdocs/guide.md
   - Contributing: mkdocs/contributing.md
