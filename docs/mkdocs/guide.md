@@ -150,3 +150,15 @@ or
 Check out the
 [full list](https://facelessuser.github.io/pymdown-extensions/extensions/keys/#extendingmodifying-key-map-index)
 of keys available.
+
+### [Footnotes](https://squidfunk.github.io/mkdocs-material/reference/footnotes/)
+
+Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
+
+[^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+[^2]:
+    [Lorem ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum)
+    dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
