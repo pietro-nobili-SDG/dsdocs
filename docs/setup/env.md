@@ -138,10 +138,55 @@ the ones inside the virtual environment will be used.
 
 #### Poetry
 
-<!-- The main drawback of `venv` is that it can only specify -->
 Poetry offers more functionalities out of the box compared to venv,
 mainly a way to specify dependencies in a looser way,
 and some commands to build and publish a package.
+
+When adding a dependency,
+poetry allows several options of
+[version constraints](https://python-poetry.org/docs/dependency-specification/),
+used to specify which version of the requested package can be installed.
+For example
+
+``` bash
+poetry add requests@^1.2.3
+``` 
+
+would allow the range `>=1.2.3 <2.0.0`.
+Refer to the documentation for a full list of possible constraints.
+
+When adding a dependency,
+it is registered in the `pyproject.toml` file,
+which is used when installing the project to resolve all the dependencies needed.
+
+<!--
+| operator                             | val  |
+| :----------------------------------- | ---- |
+| `^` [Caret][poetry_caret]            | data |
+| `~` [Tilde][poetry_tilde]            |      |
+| `*` [Wildcard][poetry_wildcard]      |      |
+| `<` [Inequality][poetry_inequality]  |      |
+| `==` [Exact][poetry_exact]           |      |
+| [Multiple][poetry_multiple]          |      |
+-->
+
+##### Install poetry
+
+To install poetry, run
+
+``` bash
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
+!!! todo
+
+    add to path? or is `$HOME/.local/bin` already on it?
+
+Restart the terminal to apply the changes and check that poetry is installed with
+
+``` bash
+poetry --version
+```
 
 ## R
 
@@ -200,3 +245,10 @@ sudo apt install fzf
 ```
 
 [^1]: Python docs: [venv module](https://docs.python.org/3/library/venv.html#module-venv)
+
+[poetry_caret]: https://python-poetry.org/docs/dependency-specification/#caret-requirements
+[poetry_tilde]: https://python-poetry.org/docs/dependency-specification/#tilde-requirements
+[poetry_wildcard]: https://python-poetry.org/docs/dependency-specification/#wildcard-requirements
+[poetry_inequality]: https://python-poetry.org/docs/dependency-specification/#inequality-requirements
+[poetry_multiple]: https://python-poetry.org/docs/dependency-specification/#multiple-requirements
+[poetry_exact]: https://python-poetry.org/docs/dependency-specification/#exact-requirements
