@@ -1,10 +1,10 @@
----
-hide:
-  - footer
----
 # Unix
 
-## Command Line Interface
+## Command-Line Interface
+
+A command-line interface (CLI) is a text-based user interface (UI)
+used to run programs, manage computer files and interact with the computer[^1].
+
 
 You can check out
 [a more comprehensive guide](https://tutorial.djangogirls.org/en/intro_to_command_line)
@@ -14,13 +14,10 @@ team.
 Skip to the
 [summary](https://tutorial.djangogirls.org/en/intro_to_command_line/#summary)
 for a quick refresher.
-Or literally just
-[google it](https://letmegooglethat.com/?q=linux+command+line+tutorial).
-There are
-[longer tutorials](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+[Longer tutorials](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 and even
-[interactive](https://linuxsurvival.com/)
-ones.
+[interactive ones](https://linuxsurvival.com/)
+are available.
 
 The Windows tabs refer to PowerShell.
 
@@ -31,7 +28,7 @@ The Windows tabs refer to PowerShell.
     if there is more than one hit ++tab++ again
     to show a list of all the possible options.
 
-### Open the terminal
+<!-- ### Open the terminal
 
 === "Linux"
 
@@ -44,12 +41,12 @@ The Windows tabs refer to PowerShell.
     Press
     ++windows++,
     type `powershell`
-    and open it.
+    and open it. -->
 
 ### Learn more about a command
 
 If for some reason Google does not work,
-open the manual page for a `command`:
+open the local manual page for a `command`:
 
 === "Linux"
 
@@ -57,7 +54,12 @@ open the manual page for a `command`:
     man [command]
     ```
 
-    Exit the documentation by typing ++q++.
+    Scroll down linewise by typing ++j++ or ++arrow-down++
+    up with ++k++ or ++arrow-up++,
+    and go to the next page with ++space++ or ++page-down++.
+    Quit the documentation by typing ++q++.
+
+    Remember, `man` like manual.
 
 === "Windows (PS)"
 
@@ -85,7 +87,7 @@ Print the path to the current directory
 
 List all the files and directories.
 
-In the current directory:
+#### In the current directory:
 
 === "Linux"
 
@@ -93,13 +95,17 @@ In the current directory:
     ls
     ```
 
+    Remember, `ls` like list.
+
 === "Windows (PS)"
 
     ``` powershell
     ls
     ```
 
-In any directory:
+    Remember, `ls` like list.
+
+#### In any directory:
 
 === "Linux"
 
@@ -113,15 +119,18 @@ In any directory:
     ls path/to/dir
     ```
 
-!!! note
+!!! note "Absolute vs relative paths"
 
-    The path is relative to the current directory.
-
-    An absolute path is relative to the root of the file system
-    (`/` for Linux, `C:` for Windows),
-    for example:
+    An absolute path is relative to the root directory of the file system
+    (`/` for Linux, `C:\` for Windows)[^2].
+    For example:
     `/home/pmn/repos/dsdocs`.
-    So if the current directory is
+
+    A relative path starts from some given working directory,
+    avoiding the need to provide the full absolute path.
+
+    In our example,
+    if the current directory is
     `/home/pmn`,
     to list all the files in `dsdocs` run
 
@@ -139,11 +148,15 @@ To change the current directory:
     cd path/to/dir
     ```
 
+    Remember, `cd` like change directory.
+
 === "Windows (PS)"
 
     ``` powershell
     cd path/to/dir
     ```
+
+    Remember, `cd` like change directory.
 
 ### Create a directory
 
@@ -156,8 +169,34 @@ in the current directory:
     mkdir dir_name
     ```
 
+    Remember, `mkdir` like make directory.
+
 === "Windows (PS)"
 
     ``` powershell
     mkdir dir_name
     ```
+
+    Remember, `mkdir` like make directory.
+
+### Move a file
+
+Rename or move a file
+
+=== "Linux"
+
+    ``` bash
+    mv old_file_name new_file_name
+    mv old/file/path new/file/path
+    ```
+
+    Remember, `mv` like move.
+
+=== "Windows (PS)"
+
+    ``` powershell
+    Move-Item –Path c:\old_path -Destination c:\new_path
+    ```
+
+[^1]: TechTarget: [CLI](https://www.techtarget.com/searchwindowsserver/definition/command-line-interface-CLI).
+[^2]: Wikipedia: [Absolute and relative paths](https://en.wikipedia.org/wiki/Path_(computing)#Absolute_and_relative_paths).
