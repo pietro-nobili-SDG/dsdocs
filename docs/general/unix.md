@@ -6,14 +6,21 @@ hide:
 
 ## Command Line Interface
 
-For a more comprehensive guide check out
-[this one](https://tutorial.djangogirls.org/en/intro_to_command_line)
+You can check out
+[a more comprehensive guide](https://tutorial.djangogirls.org/en/intro_to_command_line)
 made by the excellent
 [Django Girls](https://djangogirls.org/en/)
 team.
 Skip to the
 [summary](https://tutorial.djangogirls.org/en/intro_to_command_line/#summary)
 for a quick refresher.
+Or literally just
+[google it](https://letmegooglethat.com/?q=linux+command+line+tutorial).
+There are
+[longer tutorials](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+and even
+[interactive](https://linuxsurvival.com/)
+ones.
 
 The Windows tabs refer to PowerShell.
 

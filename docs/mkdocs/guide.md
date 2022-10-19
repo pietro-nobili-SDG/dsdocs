@@ -19,9 +19,8 @@ Material for MkDocs has a lot of
 In this page there are a few example of the most useful ones.
 
 The source code to generate this examples is not rendered,
-either
-[check](https://raw.githubusercontent.com/pietro-nobili-SDG/dsdocs/main/docs/mkdocs/guide.md)
-the source code
+either check the
+[source code](https://raw.githubusercontent.com/pietro-nobili-SDG/dsdocs/main/docs/mkdocs/guide.md)
 or better, follow the links in the headers to check the official documentation.
 
 ### [Admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)

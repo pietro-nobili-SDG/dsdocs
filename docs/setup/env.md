@@ -8,22 +8,22 @@ hide:
 ## Prerequisites
 
 This guide assumes a minimal level of confidence while using the command line.
-If you never did that, read
-[this guide](../../general/unix).
+If you never did that, read this
+[introduction to the command line](../../general/unix).
 
 ## Windows Subsystem for Linux
 
-Install the Windows Subsystem for Linux (WSL),
-following
-[this guide](https://learn.microsoft.com/en-us/windows/wsl/install).
+Follow this guide to install the
+[Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install)
+(WSL).
 
 In broad terms, the WSL lets you start a virtual machine with a different operating system running on it, without requiring a dual boot.
 
 ## VSCode
 
-Install Visual Studio Code (VSCode),
-following
-[this guide](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-vscode).
+Follow this guide to install
+[Visual Studio Code](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-vscode),
+(VSCode).
 
 Please note that VSCode is installed on the Windows operating system.
 The
@@ -46,9 +46,9 @@ and it adds a bunch of useful tools.
 
 Install the
 [community edition](https://dbeaver.io/download/)
-and
-[set up](https://dbeaver.com/2022/03/03/how-to-create-database-connection-in-dbeaver/)
-the connection to the database you'll be working on.
+and set up the
+[connection to the database](https://dbeaver.com/2022/03/03/how-to-create-database-connection-in-dbeaver/)
+you'll be working on.
 
 ## KeePass
 
