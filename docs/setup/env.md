@@ -9,7 +9,7 @@ hide:
 
 This guide assumes a minimal level of confidence while using the command line.
 If you never did that, read this
-[introduction to the command line](../../general/unix).
+[introduction to the command line](../../general/cli).
 
 ## Windows Subsystem for Linux
 
@@ -219,7 +219,7 @@ by typing the beginning of the command.
 [FZF](https://github.com/junegunn/fzf)
 is a general-purpose command-line fuzzy finder,
 which lets you filter the history
-by typing a non-contiguos substring of the command you are looking for.
+by typing a non-contiguous substring of the command you are looking for.
 
 For example, if you are looking for the command
 

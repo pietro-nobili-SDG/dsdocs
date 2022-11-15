@@ -84,10 +84,15 @@ nav:
   - Tools: 
     - tools/index.md
     - Databricks: 
+      - tools/databricks/index.md
       - Scheduling: tools/databricks/scheduling.md
       - Notebook: tools/databricks/notebook.md
     - MLFlow: tools/MLFlow/jobs.md
     - LogicApp: tools/logicapp/scheduling.md
+    - Docker: 
+      - tools/docker/index.md
+    - SageMaker: 
+      - tools/sagemaker/index.md
   - General:
     - Command-line interface: general/cli.md
     - Git: general/git.md
