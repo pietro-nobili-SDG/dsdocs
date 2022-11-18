@@ -10,6 +10,20 @@ For just a couple of useful example visit the
 [MkDocs](../guide/)
 page in this guide.
 
+## Local development
+
+Install
+[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/),
+clone the repo
+and serve the site locally:
+
+```
+pip install mkdocs-material
+git clone https://github.com/pietro-nobili-SDG/dsdocs.git
+cd dsdocs
+mkdocs serve
+```
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
@@ -17,6 +31,7 @@ page in this guide.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 * `mkdocs gh-deploy --force` - [Publish](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-mkdocs) the documentation to GitHub pages.
+  Or use [GitHub actions](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions).
 
 ## Project layout
 
