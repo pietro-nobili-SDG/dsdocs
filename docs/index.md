@@ -2,40 +2,43 @@
 
 Cool beans.
 
-Go and [setup](setup/env/) the env
+Go and [setup](setup/env/) the env.
 
-## General structure
+## Site structure
 
-```
-- index
-setup/
-    - env
-        # wsl
-        # python
-        # poetry
-        # vscode
-        # dbeaver
-        # keepass
-general/
-    - unix
-    - git
-ml/
-    time series/
-        - intro
-        - sktime
-    nlp/
-        - intro
-        - huggingface
-        - spacy
-tools/
-    databrix/
-        - scheduling jobs
-    mlflow/
-        - tips
-    snowflake/
-        - @Stef insegnaci tu
-mkdocs/
-    - contributing to this very guide
-    guide/
-        - mkdocs features
+Look at the index on the left to navigate the site.
+
+```yaml
+- Home
+- Setup
+    # wsl
+    # vscode
+    # python
+    # poetry
+    # R
+    # DBeaver
+    # KeePass
+    # FZF
+- ML: 
+  - NLP:
+    - Hugging Face
+    - SpaCy
+  - Time Series:
+    - SkTime
+- Tools: 
+  - Databricks: 
+    - Scheduling
+    - Notebook
+  - MLFlow
+  - LogicApp
+  - Docker
+  - SageMaker
+- General:
+  - Command-line interface
+  - Git
+  - Mk Docs
+  - Best Practices
+- Contributing
+- About
+- License
 ```
