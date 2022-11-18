@@ -2,14 +2,6 @@
 
 Send help pls.
 
-## Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-For just a couple of useful example visit the
-[MkDocs](../guide/)
-page in this guide.
-
 ## Local development
 
 Install
@@ -74,6 +66,15 @@ nav:
       - Notebook: tools/databricks/notebook.md
 ```
 
+## Material for MkDocs
+
+For the full documentation visit [MkDocs](https://www.mkdocs.org)
+and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+
+For a short gallery of useful mkdocs-material features visit the
+[MkDocs + material](../guide/)
+page in this guide.
+
 ## TODO
 
 1. Header with SDG logo
@@ -84,5 +85,4 @@ nav:
    if you have a lot of nested level in the navigation sidebar.
    [Docs](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation#navigation-tabs).
    Navigation in general has a lot of useful things.
-1. The automatic navigation sidebar is very nice, but it does a lexicographic sort.
    

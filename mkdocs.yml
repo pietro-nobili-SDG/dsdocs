@@ -97,7 +97,7 @@ nav:
     - Best Practices: setup/best_practices.md
     - Command-line interface: general/cli.md
     - Git: general/git.md
-    - Mk Docs: mkdocs/guide.md
+    - MkDocs + material: mkdocs/guide.md
     - Virtual Machine: general/vm.md
   - Contributing: mkdocs/contributing.md
   - About: about.md

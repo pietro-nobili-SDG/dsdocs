@@ -1,4 +1,4 @@
-# MkDocs
+# MkDocs + material
 
 Basic 
 [MkDocs](https://www.mkdocs.org)
@@ -16,12 +16,12 @@ guides.
 
 Material for MkDocs has a lot of
 [interesting features](https://squidfunk.github.io/mkdocs-material/reference/).
-In this page there are a few example of the most useful ones.
+In this page there is an overview of some of them.
 
-The source code to generate this examples is not rendered,
+The source code to generate this examples is not shown,
 either check the
-[source code](https://raw.githubusercontent.com/pietro-nobili-SDG/dsdocs/main/docs/mkdocs/guide.md)
-or better, follow the links in the headers to check the official documentation.
+[source code of this page](https://raw.githubusercontent.com/pietro-nobili-SDG/dsdocs/main/docs/mkdocs/guide.md)
+or follow the links in the headers to check the official documentation.
 
 ### [Admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
 
