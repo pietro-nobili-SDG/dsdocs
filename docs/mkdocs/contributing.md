@@ -24,22 +24,54 @@ cd dsdocs
 mkdocs serve
 ```
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-* `mkdocs gh-deploy --force` - [Publish](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-mkdocs) the documentation to GitHub pages.
-  Or use [GitHub actions](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions).
-
 ## Project layout
+
+The folder structure is something like this:
 
 ```
 mkdocs.yml    # The configuration file.
 docs/
     index.md  # The documentation homepage.
     ...       # Other markdown pages, images and other files.
+```
+
+and it's mostly reflected in the navigation bar on the left,
+but it's not required.
+
+To add a new topic, create the folder inside `docs`,
+and an `index.md` file for that topic.
+For example, to add some info related to Databricks,
+which is a general tool,
+create
+
+```
+docs/tools/databricks/index.md
+```
+
+Then add the topic to the navbar:
+open `mkdocs.yml`, look for the `nav:` section,
+and add the new file
+
+```yaml
+nav:
+  - Tools: 
+    - Databricks: 
+      - tools/databricks/index.md
+```
+
+As more information is added to the general page for that topic,
+at a certain point it makes sense to split it in several pages.
+Leave a small introduction on what the tool does in `index.md`
+and create more specific files as needed.
+Then, add them to the navbar.
+
+```yaml
+nav:
+  - Tools: 
+    - Databricks: 
+      - tools/databricks/index.md
+      - Scheduling: tools/databricks/scheduling.md
+      - Notebook: tools/databricks/notebook.md
 ```
 
 ## TODO
