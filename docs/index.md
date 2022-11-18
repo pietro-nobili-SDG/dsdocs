@@ -34,10 +34,11 @@ Look at the index on the left to navigate the site.
   - Docker
   - SageMaker
 - General:
+  - Best Practices
   - Command-line interface
   - Git
   - Mk Docs
-  - Best Practices
+  - Virtual Machine
 - Contributing
 - About
 - License
