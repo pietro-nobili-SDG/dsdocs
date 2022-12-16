@@ -34,6 +34,7 @@ theme:
     - navigation.top        # back-to-top button shown when the user starts to scroll up again
     - toc.follow            # sidebar is automatically scrolled so that the active anchor is always visible
     - search.suggest        # search will display the likeliest completion for the last word, accept with Right key
+  logo: assets/SDG_logo.png
 
 markdown_extensions:
   - abbr
