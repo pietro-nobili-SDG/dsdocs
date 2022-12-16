@@ -19,6 +19,7 @@
         "spacy",
         "superfences",
         "tasklist",
+        "togglable",
         "venv"
     ]
 }

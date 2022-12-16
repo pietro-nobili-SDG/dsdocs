@@ -10,6 +10,8 @@ clone the repo
 and serve the site locally:
 
 ```
+python3 -m venv venv
+source venv/bin/activate
 pip install mkdocs-material
 git clone https://github.com/pietro-nobili-SDG/dsdocs.git
 cd dsdocs
@@ -30,11 +32,13 @@ docs/
 and it's mostly reflected in the navigation bar on the left,
 but it's not required.
 
+### Add a markdown page
+
 To add a new topic, create the folder inside `docs`,
 and an `index.md` file for that topic.
 For example, to add some info related to Databricks,
 which is a general tool,
-create
+create the file
 
 ```
 docs/tools/databricks/index.md
@@ -64,6 +68,25 @@ nav:
       - tools/databricks/index.md
       - Scheduling: tools/databricks/scheduling.md
       - Notebook: tools/databricks/notebook.md
+```
+
+This will result in a navbar that has togglable a `Databricks` entry:
+when clicked, the `databricks/index.md` page will be shown,
+and the nested labels will be shown.
+
+### Add a html page
+
+To link an external html page,
+add the `.html` file in the same folder where the link will be used
+
+```
+docs/tools/databricks/interactive.html
+```
+
+and simply refer to it in a markdown file:
+
+```
+[link text](./interactive.html)
 ```
 
 ## Material for MkDocs
